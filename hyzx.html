@@ -1,0 +1,360 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>space工作室</title>
+<style type="text/css">
+form,ul,li,ol,dl,dt,dd,p,i,h1,h2,h3,h4,h5,h6{ margin:0; padding:0}
+ul,li{ list-style:none}  img{ border:0}  .dp{ display:block}
+.tc{ text-align:center}  .fl{ float:left} .fr{ float:right}
+.clear{clear:both;}   .clearfix:after{content:"."; display:block; visibility:hidden; height:0; clear:both}
+.main-page{margin:0 auto;width:1000px;}
+.main-page .left{border-right: 1px #fff solid;}
+.main-page .left{float:left;}
+ .main-page .right{float: right;}
+.main-page .nav-back{height:390px;}
+.main-page .nav{position:relative;width:238px;text-align:center;font-size:18px;font-family:"微软雅黑";color:black;}
+.main-page .nav div{height:60px;line-height:60px; margin-bottom: 8px;background:url(images/off.jpg) no-repeat right center; cursor: pointer;}
+.main-page .nav div.on{background: url(images/on.jpg) no-repeat right center;}
+.main-page .right{width:761px;height:610px; margin-top: -50px;}
+.main-page .content{position:relative; width:761px; height:610px; overflow:hidden;margin-left: 8px;}
+.main-page .content .con-ggh{ width:761px; height:610px;}
+
+.con-ggh ul{ margin-top:20px; display:block} 
+.con-ggh ul li{ margin-right:20px; float:left}
+.list-pic img{ width:158px; height:111px; display:block}
+.con-ggh .item-name{ height: 26px; width: 120px; font-size: 16px; text-align: center; color:black; line-height: 26px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.b-intro{ margin-top:20px}
+.ck-m{ width:123px; height:36px; line-height:36px; border:1px #fff solid; margin-top:25px}
+.zcinfo{ width:761px;} 
+.ptpic-dl,.ptpic-dl img{ width:354px; height:690px}
+.ptpic-dl{ margin-top:110px}
+.zcinfo_top{border-bottom: 1px solid #ccc;}
+.zcinfo_top h3{border-bottom: 2px solid #01935B; font-size: 26px; line-height:40px; float: left;}
+.zcinfo .zcinfo_top p{font-size: 12px; margin-top: 20px;}
+.zcinfo .zcinfo_top p a{text-decoration: none;color: black;}
+.main-page .cp{width:215px; height: 74px; background: #19cb7f;padding-left: 23px;}
+.main-page .cp span{background: url(images/cp_logo.jpg) no-repeat left center;height: 74px;background-color: #19CB7F;line-height: 74px;color:#fff; font-size: 30px; display:block;padding-left: 80px;}
+.main-page .lx{width: 238px;height: 240px;background: #E5E6E8;}
+.main-page .lx_l{width:215px; height: 74px; background: #19cb7f;padding-left: 23px;margin-top: 44px;}
+.main-page .lx .lx_l span{background: url(images/lx_logo.jpg) no-repeat left center;height: 74px;background-color: #19CB7F;line-height: 74px;color:#fff; font-size: 30px; display:block;padding-left:60px;}
+.main-page .lx ul li{font-size: 14px;line-height: 47px;}
+.main-page .lx p{ margin-left:14px;font-size: 20px;}
+.main-page .lx span{color:#19CB7F; font-size: 20px;margin-left: 14px;}
+
+</style>
+<link rel="stylesheet" href="css/cpzx_style.css" />
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/html5zoo.js"></script>
+<script src="js/lovelygallery.js"></script>
+<link rel="stylesheet" href="hycss/bellows.css">
+<link rel="stylesheet" href="hycss/bellows-theme.css">
+<!-- Example Page Styles -->
+<link rel="stylesheet" type="text/css" href="css/nav_style.css">
+
+
+<script type="text/javascript">
+    $(function(){
+        var _this1=null;
+        $('.nav>li').hover(function(){
+            _this1=$(this);
+            _this1.find('.second-nav').show();
+            var _this2=null;
+            _this1.find('.second-nav').find('li').hover(function(){
+                _this2=$(this);
+                _this2.find('.third-nav').show();
+                _this2.find('.third-nav').hover(function(){
+                    $(this).show();
+                },function(){
+                    $(this).hide();
+                });
+            },function(){
+                _this2.find('.third-nav').hide();
+            });
+        },function(){
+            _this1.find('.second-nav').hide();
+        });
+    });
+</script>
+</head>
+<body>
+<!--头部-->
+<div class="header">
+	<div class="header_h">
+		<div class="header_right">
+			<input class="sou" type="text" placeholder="  搜索关键字" />
+			<a href="#"><img src="images/fangda.jpg"></a>
+			<img class="phone" src="images/phone.jpg" alt="phone" />
+			<p>服务热线<span>8888-888888</span></p>
+
+		</div>
+		<div class="header_left">
+			<h3 class="header_logo">
+				<img src="images/logo.jpg" alt="logo" />
+			</h3>
+			<div class="header_name">space工作室</div>
+		</div>
+	</div>
+</div>
+<!--导航-->
+<script src="/demos/googlegg.js"></script>
+<div class="daohang">
+    <ul class="nav">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="gywm.html">关于我们</a></li>
+        <li><a href="cpzx.html">产品中心</a>
+            <ul class="second-nav">
+                <li><a href="cpzx.html">床上用品</a></li>
+                <li><a href="cpzx.html">床头柜</a></li>
+                <li><a href="cpzx.html">布艺沙发</a></li>
+                <li><a href="cpzx.html">照明设备</a></li>
+                <li><a href="cpzx.html">装饰产品</a></li>
+                <li><a href="cpzx.html">居家服饰</a></li>
+            </ul>
+        </li>
+        <li><a href="cgal.html">成功案例</a></li>
+        <li><a href="hyzx.html">行业资讯</a>
+            <ul class="second-nav">
+                <li><a href="hyzx.html">资讯快报</a></li>
+                <li><a href="hyzx.html">室内设计师</a></li>
+            </ul>
+        </li>
+        <li><a href="zxly.html">在线留言</a></li>
+        <li><a href="lxwm.html">联系我们</a></li>
+    </ul>
+</div>
+<!-- 轮播图 -->
+<div style="height:470px;">
+<div class="pics_wrap">
+	<div id="html5zoo-1">
+		<ul class="html5zoo-slides" style="display:none;">
+			<li><a href="cpzx.html"><img src="images/banner3.jpg" /></a></li>
+			<li><a href="cpzx.html"><img src="images/banner4.jpg" /></a></li>
+			<li><a href="cpzx.html"><img src="images/banner.jpg" /></a></li>
+			<li><a href="cpzx.html"><img src="images/banner2.jpg" /></a></li>
+		</ul>
+	</div>
+</div>
+</div>
+<!-- 轮播图结束 -->
+<!--产品中心-->
+<script src="/demos/googlegg.js"></script>
+
+<div class="main-page">
+	<h3 class="cp"><span>行业资讯</span></h3>
+	<div class="left">
+		<div class="nav">
+			<div class="on">资讯快报</div>
+			<div>室内设计师</div>
+		</div>
+	<div class="lx">
+		<h3 class="lx_l"><span>联系我们</span></h3>
+		<p>联系方式</p><span>+86-0000-96877</span>
+		<ul>
+			<li style="border-top:2px dotted #ccc;border-bottom:2px dotted #ccc;">传真：+86-0000-96877</li>
+			<li>地址：河北软件</li>
+		</ul>
+	</div>
+	</div>
+	<div class="right">
+<div class="content">
+			<div class="con-ggh">
+                 <div class="zcinfo">
+                 	<div class="zcinfo_top clearfix">
+                 		<h3 class="fl">资讯快报</h3>
+                 		<p class="fr">当前位置：<a href="#">首页</a><span>&gt</span><a href="#">资讯快报</a> </p>
+                 	</div>
+				<!-- 代码 开始 -->
+<div class="bellows single">
+    <div class="bellows__item">
+        <div class="bellows__header">
+            <h3>衣柜业新一轮战争进军农村市场</h3>
+        </div>
+        <div class="bellows__content">
+            <p>自去年国家有关部门陆续出台了一系列抑制房价、打击炒房的调控政策后，原本火爆的楼市再次骤然降温，房地产行业的成交量随之直线下降，由此对衣柜行业造成了一定的负面影响。虽然楼市低迷对整个家居行业的影响有一定的滞后性，但是打如今已经让不少企业叫苦连连。
+　　就目前的情形看，楼市的不景气已经直接影响了衣柜市场的需求，虽然仍有不少刚需及那些二次装修的消费者存在，但是楼市所带来的影响仍然使不少企业徘徊挣扎。不过在笔者看来，国家出台一系列政策来调控房地产行业，对衣柜行业来说未必不是一件好事。衣柜企业应该不断创新营销模式和服务模式，通过丰富的产品线、低碳环保的发展模式，来提升企业的综合竞争力和抵御市场风险的能力。
+</p>
+        </div>
+    </div>
+    <div class="bellows__item">
+        <div class="bellows__header">
+            <h3>年家居设计流行抽象美
+</h3>
+        </div>
+        <div class="bellows__content">
+            <p>自去年国家有关部门陆续出台了一系列抑制房价、打击炒房的调控政策后，原本火爆的楼市再次骤然降温，房地产行业的成交量随之直线下降，由此对衣柜行业造成了一定的负面影响。虽然楼市低迷对整个家居行业的影响有一定的滞后性，但是打如今已经让不少企业叫苦连连。
+　　就目前的情形看，楼市的不景气已经直接影响了衣柜市场的需求，虽然仍有不少刚需及那些二次装修的消费者存在，但是楼市所带来的影响仍然使不少企业徘徊挣扎。不过在笔者看来，国家出台一系列政策来调控房地产行业，对衣柜行业来说未必不是一件好事。衣柜企业应该不断创新营销模式和服务模式，通过丰富的产品线、低碳环保的发展模式，来提升企业的综合竞争力和抵御市场风险的能力。</p>
+        </div>
+    </div>
+    <div class="bellows__item">
+        <div class="bellows__header">
+            <h3>儿童家具市场缤纷之外的潜力
+</h3>
+        </div>
+        <div class="bellows__content">
+            <p>自去年国家有关部门陆续出台了一系列抑制房价、打击炒房的调控政策后，原本火爆的楼市再次骤然降温，房地产行业的成交量随之直线下降，由此对衣柜行业造成了一定的负面影响。虽然楼市低迷对整个家居行业的影响有一定的滞后性，但是打如今已经让不少企业叫苦连连。
+　　就目前的情形看，楼市的不景气已经直接影响了衣柜市场的需求，虽然仍有不少刚需及那些二次装修的消费者存在，但是楼市所带来的影响仍然使不少企业徘徊挣扎。不过在笔者看来，国家出台一系列政策来调控房地产行业，对衣柜行业来说未必不是一件好事。衣柜企业应该不断创新营销模式和服务模式，通过丰富的产品线、低碳环保的发展模式，来提升企业的综合竞争力和抵御市场风险的能力。</p>
+        </div>
+    </div>
+    <div class="bellows__item">
+        <div class="bellows__header">
+            <h3>红木家具又现“疯牛市”?</h3>
+        </div>
+        <div class="bellows__content">
+            <p>自去年国家有关部门陆续出台了一系列抑制房价、打击炒房的调控政策后，原本火爆的楼市再次骤然降温，房地产行业的成交量随之直线下降，由此对衣柜行业造成了一定的负面影响。虽然楼市低迷对整个家居行业的影响有一定的滞后性，但是打如今已经让不少企业叫苦连连。
+　　就目前的情形看，楼市的不景气已经直接影响了衣柜市场的需求，虽然仍有不少刚需及那些二次装修的消费者存在，但是楼市所带来的影响仍然使不少企业徘徊挣扎。不过在笔者看来，国家出台一系列政策来调控房地产行业，对衣柜行业来说未必不是一件好事。衣柜企业应该不断创新营销模式和服务模式，通过丰富的产品线、低碳环保的发展模式，来提升企业的综合竞争力和抵御市场风险的能力。</p>
+        </div>
+    </div>
+    <div class="bellows__item">
+        <div class="bellows__header">
+            <h3>室内设计师接单高手之谈判与沟通
+?</h3>
+        </div>
+        <div class="bellows__content">
+            <p>自去年国家有关部门陆续出台了一系列抑制房价、打击炒房的调控政策后，原本火爆的楼市再次骤然降温，房地产行业的成交量随之直线下降，由此对衣柜行业造成了一定的负面影响。虽然楼市低迷对整个家居行业的影响有一定的滞后性，但是打如今已经让不少企业叫苦连连。
+　　就目前的情形看，楼市的不景气已经直接影响了衣柜市场的需求，虽然仍有不少刚需及那些二次装修的消费者存在，但是楼市所带来的影响仍然使不少企业徘徊挣扎。不过在笔者看来，国家出台一系列政策来调控房地产行业，对衣柜行业来说未必不是一件好事。衣柜企业应该不断创新营销模式和服务模式，通过丰富的产品线、低碳环保的发展模式，来提升企业的综合竞争力和抵御市场风险的能力。</p>
+        </div>
+    </div>
+    <div class="bellows__item">
+        <div class="bellows__header">
+            <h3>设计师如何与业主沟通？
+?</h3>
+        </div>
+        <div class="bellows__content">
+            <p>自去年国家有关部门陆续出台了一系列抑制房价、打击炒房的调控政策后，原本火爆的楼市再次骤然降温，房地产行业的成交量随之直线下降，由此对衣柜行业造成了一定的负面影响。虽然楼市低迷对整个家居行业的影响有一定的滞后性，但是打如今已经让不少企业叫苦连连。
+　　就目前的情形看，楼市的不景气已经直接影响了衣柜市场的需求，虽然仍有不少刚需及那些二次装修的消费者存在，但是楼市所带来的影响仍然使不少企业徘徊挣扎。不过在笔者看来，国家出台一系列政策来调控房地产行业，对衣柜行业来说未必不是一件好事。衣柜企业应该不断创新营销模式和服务模式，通过丰富的产品线、低碳环保的发展模式，来提升企业的综合竞争力和抵御市场风险的能力。</p>
+        </div>
+    </div>
+</div>
+<!-- Include dependencies -->
+
+<script src="hyjs/velocity.min.js"></script>
+<!-- Include bellows.js -->
+<script src="hyjs/bellows.min.js"></script>
+<!-- Construct Bellows -->
+<script>$('.bellows').bellows({
+      singleItemOpen: true,
+      easing: 'ease-in-out',
+       duration: 600})
+</script>
+<!-- 代码 结束 -->
+                 </div>
+			</div>
+				<div class="con-ggh">
+                 <div class="zcinfo">
+                 	<div class="zcinfo_top clearfix">
+                 		<h3 class="fl">室内设计师</h3>
+                 		<p class="fr">当前位置：<a href="#">首页</a><span>&gt</span><a href="#">室内设计师</a> </p>
+                 	</div>
+				<!-- 代码 开始 -->
+<div class="bellows single">
+    <div class="bellows__item">
+        <div class="bellows__header">
+            <h3>衣柜业新一轮战争进军农村市场</h3>
+        </div>
+        <div class="bellows__content">
+            <p>自去年国家有关部门陆续出台了一系列抑制房价、打击炒房的调控政策后，原本火爆的楼市再次骤然降温，房地产行业的成交量随之直线下降，由此对衣柜行业造成了一定的负面影响。虽然楼市低迷对整个家居行业的影响有一定的滞后性，但是打如今已经让不少企业叫苦连连。
+　　就目前的情形看，楼市的不景气已经直接影响了衣柜市场的需求，虽然仍有不少刚需及那些二次装修的消费者存在，但是楼市所带来的影响仍然使不少企业徘徊挣扎。不过在笔者看来，国家出台一系列政策来调控房地产行业，对衣柜行业来说未必不是一件好事。衣柜企业应该不断创新营销模式和服务模式，通过丰富的产品线、低碳环保的发展模式，来提升企业的综合竞争力和抵御市场风险的能力。
+</p>
+        </div>
+    </div>
+    <div class="bellows__item">
+        <div class="bellows__header">
+            <h3>年家居设计流行抽象美
+</h3>
+        </div>
+        <div class="bellows__content">
+            <p>自去年国家有关部门陆续出台了一系列抑制房价、打击炒房的调控政策后，原本火爆的楼市再次骤然降温，房地产行业的成交量随之直线下降，由此对衣柜行业造成了一定的负面影响。虽然楼市低迷对整个家居行业的影响有一定的滞后性，但是打如今已经让不少企业叫苦连连。
+　　就目前的情形看，楼市的不景气已经直接影响了衣柜市场的需求，虽然仍有不少刚需及那些二次装修的消费者存在，但是楼市所带来的影响仍然使不少企业徘徊挣扎。不过在笔者看来，国家出台一系列政策来调控房地产行业，对衣柜行业来说未必不是一件好事。衣柜企业应该不断创新营销模式和服务模式，通过丰富的产品线、低碳环保的发展模式，来提升企业的综合竞争力和抵御市场风险的能力。</p>
+        </div>
+    </div>
+    <div class="bellows__item">
+        <div class="bellows__header">
+            <h3>儿童家具市场缤纷之外的潜力
+</h3>
+        </div>
+        <div class="bellows__content">
+            <p>自去年国家有关部门陆续出台了一系列抑制房价、打击炒房的调控政策后，原本火爆的楼市再次骤然降温，房地产行业的成交量随之直线下降，由此对衣柜行业造成了一定的负面影响。虽然楼市低迷对整个家居行业的影响有一定的滞后性，但是打如今已经让不少企业叫苦连连。
+　　就目前的情形看，楼市的不景气已经直接影响了衣柜市场的需求，虽然仍有不少刚需及那些二次装修的消费者存在，但是楼市所带来的影响仍然使不少企业徘徊挣扎。不过在笔者看来，国家出台一系列政策来调控房地产行业，对衣柜行业来说未必不是一件好事。衣柜企业应该不断创新营销模式和服务模式，通过丰富的产品线、低碳环保的发展模式，来提升企业的综合竞争力和抵御市场风险的能力。</p>
+        </div>
+    </div>
+    <div class="bellows__item">
+        <div class="bellows__header">
+            <h3>红木家具又现“疯牛市”?</h3>
+        </div>
+        <div class="bellows__content">
+            <p>自去年国家有关部门陆续出台了一系列抑制房价、打击炒房的调控政策后，原本火爆的楼市再次骤然降温，房地产行业的成交量随之直线下降，由此对衣柜行业造成了一定的负面影响。虽然楼市低迷对整个家居行业的影响有一定的滞后性，但是打如今已经让不少企业叫苦连连。
+　　就目前的情形看，楼市的不景气已经直接影响了衣柜市场的需求，虽然仍有不少刚需及那些二次装修的消费者存在，但是楼市所带来的影响仍然使不少企业徘徊挣扎。不过在笔者看来，国家出台一系列政策来调控房地产行业，对衣柜行业来说未必不是一件好事。衣柜企业应该不断创新营销模式和服务模式，通过丰富的产品线、低碳环保的发展模式，来提升企业的综合竞争力和抵御市场风险的能力。</p>
+        </div>
+    </div>
+    <div class="bellows__item">
+        <div class="bellows__header">
+            <h3>室内设计师接单高手之谈判与沟通
+?</h3>
+        </div>
+        <div class="bellows__content">
+            <p>自去年国家有关部门陆续出台了一系列抑制房价、打击炒房的调控政策后，原本火爆的楼市再次骤然降温，房地产行业的成交量随之直线下降，由此对衣柜行业造成了一定的负面影响。虽然楼市低迷对整个家居行业的影响有一定的滞后性，但是打如今已经让不少企业叫苦连连。
+　　就目前的情形看，楼市的不景气已经直接影响了衣柜市场的需求，虽然仍有不少刚需及那些二次装修的消费者存在，但是楼市所带来的影响仍然使不少企业徘徊挣扎。不过在笔者看来，国家出台一系列政策来调控房地产行业，对衣柜行业来说未必不是一件好事。衣柜企业应该不断创新营销模式和服务模式，通过丰富的产品线、低碳环保的发展模式，来提升企业的综合竞争力和抵御市场风险的能力。</p>
+        </div>
+    </div>
+    <div class="bellows__item">
+        <div class="bellows__header">
+            <h3>设计师如何与业主沟通？
+?</h3>
+        </div>
+        <div class="bellows__content">
+            <p>自去年国家有关部门陆续出台了一系列抑制房价、打击炒房的调控政策后，原本火爆的楼市再次骤然降温，房地产行业的成交量随之直线下降，由此对衣柜行业造成了一定的负面影响。虽然楼市低迷对整个家居行业的影响有一定的滞后性，但是打如今已经让不少企业叫苦连连。
+　　就目前的情形看，楼市的不景气已经直接影响了衣柜市场的需求，虽然仍有不少刚需及那些二次装修的消费者存在，但是楼市所带来的影响仍然使不少企业徘徊挣扎。不过在笔者看来，国家出台一系列政策来调控房地产行业，对衣柜行业来说未必不是一件好事。衣柜企业应该不断创新营销模式和服务模式，通过丰富的产品线、低碳环保的发展模式，来提升企业的综合竞争力和抵御市场风险的能力。</p>
+        </div>
+    </div>
+</div>
+<!-- Include dependencies -->
+
+<script src="hyjs/velocity.min.js"></script>
+<!-- Include bellows.js -->
+<script src="hyjs/bellows.min.js"></script>
+<!-- Construct Bellows -->
+<script>$('.bellows').bellows({
+      singleItemOpen: true,
+      easing: 'ease-in-out',
+       duration: 600})
+</script>
+<!-- 代码 结束 -->
+                 </div>
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+</div>
+
+<script type="text/javascript" src="js/cpzx.min.js"></script>
+<script type="text/javascript">
+$(".main-page .nav div").mouseenter(function () {
+	var $this = $(this);
+	var index = $this.index();
+}).mouseleave(function () {
+	var $this = $(this);
+	var index = $this.index();
+}).click(function () {
+	var $this = $(this);
+	var index = $this.index();
+	var l = -(index * 610);
+	$(".main-page .nav div").removeClass("on");
+	$(".main-page .nav div").eq(index).addClass("on");
+	$(".main-page .content .con-ggh:eq(0)").stop().animate({ "margin-top": l }, 500);
+});
+</script>
+	<div class="footer">
+		<p>地址：河北软件职业技术学院</p>
+		<p>电话：1551155151   qq:57144895   邮政编码：071000</p>
+		<p>版权所有：space工作室</p>
+		<a href="#"> <img src="images/jj.jpg" alt="" /> </a>
+		<a href="#"> <img src="images/kj.jpg" alt="" /> </a>
+		<a href="#"> <img src="images/xl.jpg" alt="" /> </a>
+		<a href="#"> <img src="images/wb.jpg" alt="" /> </a>
+		<a href="#"> <img src="images/rr.jpg" alt="" /> </a>
+		<a href="#"> <img src="images/wx.jpg" alt="" /> </a>
+	</div>
+</div>
+</body>
+</html>

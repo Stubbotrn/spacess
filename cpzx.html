@@ -1,0 +1,1323 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>space工作室</title>
+<style type="text/css">
+.tc{ text-align:center}  .fl{ float:left} .fr{ float:right}
+.clear{clear:both;}   .clearfix:after{content:"."; display:block; visibility:hidden; height:0; clear:both}
+.main-page{margin:0 auto;width:1000px; margin-top:30px;}
+.main-page .left{border-right: 1px #fff solid;}
+.main-page .left{float:left;}
+ .main-page .right{float: right;}
+.main-page .nav-back{height:390px;}
+.main-page .nav{position:relative;width:238px;text-align:center;font-size:18px;font-family:"微软雅黑";color:black;}
+.main-page .nav div{height:60px;line-height:60px; margin-bottom: 8px;background:url(images/off.jpg) no-repeat right center; cursor: pointer;}
+.main-page .nav div.on{background: url(images/on.jpg) no-repeat right center;}
+.main-page .right{width:761px;height:610px; margin-top: -50px;}
+.main-page .content{position:relative; width:761px; height:610px; overflow:hidden;margin-left: 8px;}
+.main-page .content .con-ggh{ width:761px; height:610px;}
+.b-intro{ margin-top:20px}
+.ck-m{ width:123px; height:36px; line-height:36px; border:1px #fff solid; margin-top:25px}
+.zcinfo{ width:761px;} 
+.ptpic-dl,.ptpic-dl img{ width:354px; height:690px}
+.ptpic-dl{ margin-top:110px}
+.zcinfo_top{border-bottom: 1px solid #ccc;}
+.zcinfo_top h3{border-bottom: 2px solid #01935B; font-size: 26px; line-height:40px; float: left;}
+.zcinfo .zcinfo_top p{font-size: 12px; margin-top: 20px;}
+.zcinfo .zcinfo_top p a{text-decoration: none;color: black;}
+.main-page .cp{width:215px; height: 74px; background: #19cb7f;padding-left: 23px;}
+.main-page .cp span{background: url(images/cp_logo.jpg) no-repeat left center;height: 74px;background-color: #19CB7F;line-height: 74px;color:#fff; font-size: 30px; display:block;padding-left: 80px;}
+.main-page .lx{width: 238px;height: 240px;background:#E5E6E8;}
+.main-page .lx_l{width:215px; height: 74px; background: #19cb7f;padding-left: 23px;margin-top: 44px;}
+.main-page .lx .lx_l span{background: url(images/lx_logo.jpg) no-repeat left center;height: 74px;background-color: #19CB7F;line-height: 74px;color:#fff; font-size: 30px; display:block;padding-left:60px;}
+.main-page .lx ul li{font-size: 14px;line-height: 47px;}
+.main-page .lx p{ margin-left:14px;font-size: 20px;}
+.main-page .lx span{color:#19CB7F; font-size: 20px;margin-left: 14px;}
+
+
+
+
+
+#container{ width:761px; margin: 0 auto;}
+    #container li{ position:relative;width: 230px;border: 1px solid #ccc; height: 150px; line-height: 150px; text-align: center; margin:10px; float: left; cursor: pointer;  overflow: hidden;}
+    #container li p{ height:150px; width: 100%; position: absolute; left: 0; top: -150px; color: #ffffff;
+        z-index: 2; }
+    #container li .img{ width: 230px; height: 150px; display: block;
+        -moz-transition:.5s ease-in;
+        -webkit-transition:.5s ease-in;
+        -o-transition:.5s ease-in;
+        -ms-transition:.5s ease-in;
+        transition:.5s ease-in;}
+    #container li:hover .img{ transform:scale(1.1,1.1);-moz-transform:scale(1.1,1.1);-webkit-transform:scale(1.1,1.1);-o-transform:scale(1.1,1.1)}
+    #container li p i{ width: 100%; height: 100%; display: block; position: absolute; left: 0; top: 0;z-index: -1;background: #000000; opacity: 0.7; -moz-opacity:0.7; filter:alpha(opacity=70); font-size: 16px; }
+    #container li p span{ display: block; width: 94%; margin: 0 auto; line-height: 24px; font-size: 12px; padding-top:60px;}
+    #container li p a{ display: block; position: absolute; width: 32px; height: 32px; left:50%; margin-left: -16px; top:20px; background:url("images/link.png") no-repeat 0 0;}
+    .explain{ display: block; margin:0 auto;}
+
+</style>
+<script type="text/javascript">
+    $(function(){
+        var _this1=null;
+        $('.nav>li').hover(function(){
+            _this1=$(this);
+            _this1.find('.second-nav').show();
+            var _this2=null;
+            _this1.find('.second-nav').find('li').hover(function(){
+                _this2=$(this);
+                _this2.find('.third-nav').show();
+                _this2.find('.third-nav').hover(function(){
+                    $(this).show();
+                },function(){
+                    $(this).hide();
+                });
+            },function(){
+                _this2.find('.third-nav').hide();
+            });
+        },function(){
+            _this1.find('.second-nav').hide();
+        });
+    });
+</script>
+<script type="text/javascript" src="js/right_jquery.js"></script>
+<link rel="stylesheet" href="css/cpzx_style.css" />
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/html5zoo.js"></script>
+<script src="js/lovelygallery.js"></script>
+<link rel="stylesheet" href="css/nav_css.css" />
+<link rel="stylesheet" href="css/nav_main.css" />
+
+
+
+<link rel="stylesheet" type="text/css" href="css/nav_style.css">
+
+
+<script type="text/javascript">
+    $(function(){
+        var _this1=null;
+        $('.nav>li').hover(function(){
+            _this1=$(this);
+            _this1.find('.second-nav').show();
+            var _this2=null;
+            _this1.find('.second-nav').find('li').hover(function(){
+                _this2=$(this);
+                _this2.find('.third-nav').show();
+                _this2.find('.third-nav').hover(function(){
+                    $(this).show();
+                },function(){
+                    $(this).hide();
+                });
+            },function(){
+                _this2.find('.third-nav').hide();
+            });
+        },function(){
+            _this1.find('.second-nav').hide();
+        });
+    });
+</script>
+</head>
+<body>
+<!--头部-->
+<div class="header">
+	<div class="header_h">
+		<div class="header_right">
+			<input class="sou" type="text" placeholder="  搜索关键字" />
+			<a href="#"><img src="images/fangda.jpg"></a>
+			<img class="phone" src="images/phone.jpg" alt="phone" />
+			<p>服务热线<span>8888-888888</span></p>
+		</div>
+		<div class="header_left">
+			<h3 class="header_logo">
+				<img src="images/logo.jpg" alt="logo" />
+			</h3>
+			<div class="header_name">space工作室</div>
+		</div>
+	</div>
+</div>
+<!--导航-->
+<script src="/demos/googlegg.js"></script>
+<div class="daohang">
+    <ul class="nav">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="gywm.html">关于我们</a></li>
+        <li><a href="cpzx.html">产品中心</a>
+            <ul class="second-nav">
+                <li><a href="cpzx.html">床上用品</a></li>
+                <li><a href="cpzx.html">床头柜</a></li>
+                <li><a href="cpzx.html">布艺沙发</a></li>
+                <li><a href="cpzx.html">照明设备</a></li>
+                <li><a href="cpzx.html">装饰产品</a></li>
+                <li><a href="cpzx.html">居家服饰</a></li>
+            </ul>
+        </li>
+        <li><a href="cgal.html">成功案例</a></li>
+        <li><a href="hyzx.html">行业资讯</a>
+            <ul class="second-nav">
+                <li><a href="hyzx.html">资讯快报</a></li>
+                <li><a href="hyzx.html">室内设计师</a></li>
+            </ul>
+        </li>
+        <li><a href="zxly.html">在线留言</a></li>
+        <li><a href="lxwm.html">联系我们</a></li>
+    </ul>
+</div>
+<!-- 轮播图 -->
+<div class="pics_wrap">
+	<div id="html5zoo-1">
+		<ul class="html5zoo-slides" style="display:none;">
+			<li><a href="cpzx.html"><img src="images/banner3.jpg" /></a></li>
+			<li><a href="cpzx.html"><img src="images/banner4.jpg" /></a></li>
+			<li><a href="cpzx.html"><img src="images/banner.jpg" /></a></li>
+			<li><a href="cpzx.html"><img src="images/banner2.jpg" /></a></li>
+		</ul>
+	</div>
+</div>
+<!-- 轮播图结束 -->
+<!--产品中心-->
+<script src="/demos/googlegg.js"></script>
+
+<div class="main-page">
+	<h3 class="cp"><span>产品中心</span></h3>
+	<div class="left">
+		<div class="nav">
+			<div class="on">床上用品</div>
+			<div>床头柜</div>
+			<div>布艺沙发</div>
+			<div>照明设备</div>
+			<div>装饰产品</div>
+			<div>居家服饰</div>
+		</div>
+	<div class="lx">
+		<h3 class="lx_l"><span>联系我们</span></h3>
+		<p>联系方式</p><span>+86-0000-96877</span>
+		<ul>
+			<li style="border-top:2px dotted #ccc;border-bottom:2px dotted #ccc;">传真：+86-0000-96877</li>
+			<li>地址：河北软件</li>
+		</ul>
+	</div>
+	</div>
+	<div class="right">
+<div class="content">
+			<div class="con-ggh">
+                <div class="zcinfo">
+                 	<div class="zcinfo_top clearfix">
+                 		<h3 class="fl">床上用品</h3>
+                 		<p class="fr">当前位置：<a href="index.html">首页</a><span>&gt</span><a href="#">床上用品</a> </p>
+                 	</div>
+                    <ul id="container" class="clearfix">
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank" href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                    </ul>
+                    <ul id="container" class="clearfix">
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                    </ul>
+                    <script>
+                       $("#container li").each(function(){
+                           $(this).on('mouseenter',function(e){
+                               var e=e||window.event;
+                               var angle=direct(e,this)
+                               mouseEvent(angle,this,'in')
+                           })
+                           $(this).on('mouseleave',function(e){
+                               var e=e||window.event;
+                               var angle=direct(e,this)
+                               mouseEvent(angle,this,'off')
+                           })
+                       })
+                       function direct(e,o){
+                         var w=o.offsetWidth;
+                         var h=o.offsetHeight;
+                         var top= o.offsetTop;                    //包含滚动条滚动的部分
+                         var left= o.offsetLeft;
+                         var scrollTOP=document.body.scrollTop||document.documentElement.scrollTop;
+                         var scrollLeft=document.body.scrollLeft||document.documentElement.scrollLeft;
+                         var offTop=top-  scrollTOP;
+                         var offLeft= left- scrollLeft;
+                         //console.log(offTop+";"+offLeft)
+                        // e.pageX|| e.clientX;
+                                //pageX 是从页面0 0 点开始  clientX是当前可视区域0 0开始  即当有滚动条时clientX  小于  pageX
+                               //ie678不识别pageX
+                               //PageY=clientY+scrollTop-clientTop;(只讨论Y轴,X轴同理,下同) 页面上的位置=可视区域位置+页面滚动条切去高度-自身border高度
+                         var ex= (e.pageX-scrollLeft)|| e.clientX;
+                         var ey=(e.pageY-scrollTOP)|| e.clientY;
+                         var x=(ex-offLeft-w/2)*(w>h?(h/w):1);
+                         var y=(ey-offTop-h/2)*(h>w?(w/h):1);
+
+                         var angle=(Math.round((Math.atan2(y,x)*(180/Math.PI)+180)/90)+3)%4 //atan2返回的是弧度 atan2(y,x)
+                         var directName=["上","右","下","左"];
+                         return directName[angle];  //返回方向  0 1 2 3对应 上 右 下 左
+                       }
+                       function mouseEvent(angle,o,d){ //方向  元素  鼠标进入/离开
+                           var w=o.offsetWidth;
+                           var h=o.offsetHeight;
+
+                           if(d=='in'){
+                               switch(angle){
+                                   case '上':
+                                       $(o).find("p").css({left:0,top:-h+"px"}).stop(true).animate({left:0,top:0},300)
+                                        setTimeout(function(){
+                                            $(o).find("p a").css({left:'50%',top:-h+"px"}).stop(true).animate({left:'50%',top:'20px'},300)
+                                        },200)
+                                       break;
+                                   case '右':
+                                       $(o).find("p").css({left:w+"px",top:0}).stop(true).animate({left:0,top:0},300)
+                                       setTimeout(function(){
+                                           $(o).find("p a").css({left:w+"px",top:'20px'}).stop(true).animate({left:'50%',top:'20px'},300)
+                                       },200)
+                                       break;
+                                   case '下':
+                                       $(o).find("p").css({left:0,top:h+"px"}).stop(true).animate({left:0,top:0},300)
+                                       setTimeout(function(){
+                                           $(o).find("p a").css({left:'50%',top:h+"px"}).stop(true).animate({left:'50%',top:'20px'},300)
+                                       },200)
+                                       break;
+                                   case '左':
+                                       $(o).find("p").css({left:-w+"px",top:0}).stop(true).animate({left:0,top:0},300)
+                                       setTimeout(function(){
+                                           $(o).find("p a").css({left:-w+"px",top:'20px'}).stop(true).animate({left:'50%',top:'20px'},300)
+                                       },200)
+                                       break;
+                               }
+                           }else if(d=='off'){
+                               switch(angle){
+                                   case '上':
+                                       $(o).find("p a").stop(true).animate({left:'50%',top:-h+"px"},300)
+                                       setTimeout(function(){
+                                           $(o).find("p").stop(true).animate({left:0,top:-h+"px"},300)
+                                       },200)
+                                       break;
+                                   case '右':
+                                       $(o).find("p a").stop(true).animate({left:w+"px",top:'20px'},300)
+                                       setTimeout(function(){
+                                           $(o).find("p").stop(true).animate({left:w+"px",top:0},300)
+                                       },200)
+                                       break;
+                                   case '下':
+                                       $(o).find("p a").stop(true).animate({left:'50%',top:h+"px"},300)
+                                       setTimeout(function(){
+                                           $(o).find("p").stop(true).animate({left:0,top:h+"px"},300)
+                                       },200)
+                                       break;
+                                   case '左':
+                                       $(o).find("p a").stop(true).animate({left:-w+"px",top:'20px'},300)
+                                       setTimeout(function(){
+                                           $(o).find("p").stop(true).animate({left:-w+"px",top:0},300)
+                                       },200)
+                                       break;
+                               }
+                           }
+                       }
+                    </script> 
+                </div>
+			</div>
+            <div class="con-ggh">
+                <div class="zcinfo">
+                    <div class="zcinfo_top clearfix">
+                        <h3 class="fl">布艺沙发</h3>
+                        <p class="fr">当前位置：<a href="index.html">首页</a><span>&gt</span><a href="#">布艺沙发</a> </p>
+                    </div>
+                    <ul id="container" class="clearfix">
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank" href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                    </ul>
+                    <ul id="container" class="clearfix">
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                    </ul>
+                    <script>
+                       $("#container li").each(function(){
+                           $(this).on('mouseenter',function(e){
+                               var e=e||window.event;
+                               var angle=direct(e,this)
+                               mouseEvent(angle,this,'in')
+                           })
+                           $(this).on('mouseleave',function(e){
+                               var e=e||window.event;
+                               var angle=direct(e,this)
+                               mouseEvent(angle,this,'off')
+                           })
+                       })
+                       function direct(e,o){
+                         var w=o.offsetWidth;
+                         var h=o.offsetHeight;
+                         var top= o.offsetTop;                    //包含滚动条滚动的部分
+                         var left= o.offsetLeft;
+                         var scrollTOP=document.body.scrollTop||document.documentElement.scrollTop;
+                         var scrollLeft=document.body.scrollLeft||document.documentElement.scrollLeft;
+                         var offTop=top-  scrollTOP;
+                         var offLeft= left- scrollLeft;
+                         //console.log(offTop+";"+offLeft)
+                        // e.pageX|| e.clientX;
+                                //pageX 是从页面0 0 点开始  clientX是当前可视区域0 0开始  即当有滚动条时clientX  小于  pageX
+                               //ie678不识别pageX
+                               //PageY=clientY+scrollTop-clientTop;(只讨论Y轴,X轴同理,下同) 页面上的位置=可视区域位置+页面滚动条切去高度-自身border高度
+                         var ex= (e.pageX-scrollLeft)|| e.clientX;
+                         var ey=(e.pageY-scrollTOP)|| e.clientY;
+                         var x=(ex-offLeft-w/2)*(w>h?(h/w):1);
+                         var y=(ey-offTop-h/2)*(h>w?(w/h):1);
+
+                         var angle=(Math.round((Math.atan2(y,x)*(180/Math.PI)+180)/90)+3)%4 //atan2返回的是弧度 atan2(y,x)
+                         var directName=["上","右","下","左"];
+                         return directName[angle];  //返回方向  0 1 2 3对应 上 右 下 左
+                       }
+                       function mouseEvent(angle,o,d){ //方向  元素  鼠标进入/离开
+                           var w=o.offsetWidth;
+                           var h=o.offsetHeight;
+
+                           if(d=='in'){
+                               switch(angle){
+                                   case '上':
+                                       $(o).find("p").css({left:0,top:-h+"px"}).stop(true).animate({left:0,top:0},300)
+                                        setTimeout(function(){
+                                            $(o).find("p a").css({left:'50%',top:-h+"px"}).stop(true).animate({left:'50%',top:'20px'},300)
+                                        },200)
+                                       break;
+                                   case '右':
+                                       $(o).find("p").css({left:w+"px",top:0}).stop(true).animate({left:0,top:0},300)
+                                       setTimeout(function(){
+                                           $(o).find("p a").css({left:w+"px",top:'20px'}).stop(true).animate({left:'50%',top:'20px'},300)
+                                       },200)
+                                       break;
+                                   case '下':
+                                       $(o).find("p").css({left:0,top:h+"px"}).stop(true).animate({left:0,top:0},300)
+                                       setTimeout(function(){
+                                           $(o).find("p a").css({left:'50%',top:h+"px"}).stop(true).animate({left:'50%',top:'20px'},300)
+                                       },200)
+                                       break;
+                                   case '左':
+                                       $(o).find("p").css({left:-w+"px",top:0}).stop(true).animate({left:0,top:0},300)
+                                       setTimeout(function(){
+                                           $(o).find("p a").css({left:-w+"px",top:'20px'}).stop(true).animate({left:'50%',top:'20px'},300)
+                                       },200)
+                                       break;
+                               }
+                           }else if(d=='off'){
+                               switch(angle){
+                                   case '上':
+                                       $(o).find("p a").stop(true).animate({left:'50%',top:-h+"px"},300)
+                                       setTimeout(function(){
+                                           $(o).find("p").stop(true).animate({left:0,top:-h+"px"},300)
+                                       },200)
+                                       break;
+                                   case '右':
+                                       $(o).find("p a").stop(true).animate({left:w+"px",top:'20px'},300)
+                                       setTimeout(function(){
+                                           $(o).find("p").stop(true).animate({left:w+"px",top:0},300)
+                                       },200)
+                                       break;
+                                   case '下':
+                                       $(o).find("p a").stop(true).animate({left:'50%',top:h+"px"},300)
+                                       setTimeout(function(){
+                                           $(o).find("p").stop(true).animate({left:0,top:h+"px"},300)
+                                       },200)
+                                       break;
+                                   case '左':
+                                       $(o).find("p a").stop(true).animate({left:-w+"px",top:'20px'},300)
+                                       setTimeout(function(){
+                                           $(o).find("p").stop(true).animate({left:-w+"px",top:0},300)
+                                       },200)
+                                       break;
+                               }
+                           }
+                       }
+                    </script> 
+                </div>
+            </div>
+            <div class="con-ggh">
+                <div class="zcinfo">
+                    <div class="zcinfo_top clearfix">
+                        <h3 class="fl">布艺沙发</h3>
+                        <p class="fr">当前位置：<a href="index.html">首页</a><span>&gt</span><a href="#">布艺沙发</a> </p>
+                    </div>
+                    <ul id="container" class="clearfix">
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank" href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                    </ul>
+                    <ul id="container" class="clearfix">
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                    </ul>
+                    <script>
+                       $("#container li").each(function(){
+                           $(this).on('mouseenter',function(e){
+                               var e=e||window.event;
+                               var angle=direct(e,this)
+                               mouseEvent(angle,this,'in')
+                           })
+                           $(this).on('mouseleave',function(e){
+                               var e=e||window.event;
+                               var angle=direct(e,this)
+                               mouseEvent(angle,this,'off')
+                           })
+                       })
+                       function direct(e,o){
+                         var w=o.offsetWidth;
+                         var h=o.offsetHeight;
+                         var top= o.offsetTop;                    //包含滚动条滚动的部分
+                         var left= o.offsetLeft;
+                         var scrollTOP=document.body.scrollTop||document.documentElement.scrollTop;
+                         var scrollLeft=document.body.scrollLeft||document.documentElement.scrollLeft;
+                         var offTop=top-  scrollTOP;
+                         var offLeft= left- scrollLeft;
+                         //console.log(offTop+";"+offLeft)
+                        // e.pageX|| e.clientX;
+                                //pageX 是从页面0 0 点开始  clientX是当前可视区域0 0开始  即当有滚动条时clientX  小于  pageX
+                               //ie678不识别pageX
+                               //PageY=clientY+scrollTop-clientTop;(只讨论Y轴,X轴同理,下同) 页面上的位置=可视区域位置+页面滚动条切去高度-自身border高度
+                         var ex= (e.pageX-scrollLeft)|| e.clientX;
+                         var ey=(e.pageY-scrollTOP)|| e.clientY;
+                         var x=(ex-offLeft-w/2)*(w>h?(h/w):1);
+                         var y=(ey-offTop-h/2)*(h>w?(w/h):1);
+
+                         var angle=(Math.round((Math.atan2(y,x)*(180/Math.PI)+180)/90)+3)%4 //atan2返回的是弧度 atan2(y,x)
+                         var directName=["上","右","下","左"];
+                         return directName[angle];  //返回方向  0 1 2 3对应 上 右 下 左
+                       }
+                       function mouseEvent(angle,o,d){ //方向  元素  鼠标进入/离开
+                           var w=o.offsetWidth;
+                           var h=o.offsetHeight;
+
+                           if(d=='in'){
+                               switch(angle){
+                                   case '上':
+                                       $(o).find("p").css({left:0,top:-h+"px"}).stop(true).animate({left:0,top:0},300)
+                                        setTimeout(function(){
+                                            $(o).find("p a").css({left:'50%',top:-h+"px"}).stop(true).animate({left:'50%',top:'20px'},300)
+                                        },200)
+                                       break;
+                                   case '右':
+                                       $(o).find("p").css({left:w+"px",top:0}).stop(true).animate({left:0,top:0},300)
+                                       setTimeout(function(){
+                                           $(o).find("p a").css({left:w+"px",top:'20px'}).stop(true).animate({left:'50%',top:'20px'},300)
+                                       },200)
+                                       break;
+                                   case '下':
+                                       $(o).find("p").css({left:0,top:h+"px"}).stop(true).animate({left:0,top:0},300)
+                                       setTimeout(function(){
+                                           $(o).find("p a").css({left:'50%',top:h+"px"}).stop(true).animate({left:'50%',top:'20px'},300)
+                                       },200)
+                                       break;
+                                   case '左':
+                                       $(o).find("p").css({left:-w+"px",top:0}).stop(true).animate({left:0,top:0},300)
+                                       setTimeout(function(){
+                                           $(o).find("p a").css({left:-w+"px",top:'20px'}).stop(true).animate({left:'50%',top:'20px'},300)
+                                       },200)
+                                       break;
+                               }
+                           }else if(d=='off'){
+                               switch(angle){
+                                   case '上':
+                                       $(o).find("p a").stop(true).animate({left:'50%',top:-h+"px"},300)
+                                       setTimeout(function(){
+                                           $(o).find("p").stop(true).animate({left:0,top:-h+"px"},300)
+                                       },200)
+                                       break;
+                                   case '右':
+                                       $(o).find("p a").stop(true).animate({left:w+"px",top:'20px'},300)
+                                       setTimeout(function(){
+                                           $(o).find("p").stop(true).animate({left:w+"px",top:0},300)
+                                       },200)
+                                       break;
+                                   case '下':
+                                       $(o).find("p a").stop(true).animate({left:'50%',top:h+"px"},300)
+                                       setTimeout(function(){
+                                           $(o).find("p").stop(true).animate({left:0,top:h+"px"},300)
+                                       },200)
+                                       break;
+                                   case '左':
+                                       $(o).find("p a").stop(true).animate({left:-w+"px",top:'20px'},300)
+                                       setTimeout(function(){
+                                           $(o).find("p").stop(true).animate({left:-w+"px",top:0},300)
+                                       },200)
+                                       break;
+                               }
+                           }
+                       }
+                    </script> 
+                </div>
+            </div>
+            <div class="con-ggh">
+                <div class="zcinfo">
+                    <div class="zcinfo_top clearfix">
+                        <h3 class="fl">照明设备</h3>
+                        <p class="fr">当前位置：<a href="index.html">首页</a><span>&gt</span><a href="#">照明设备</a> </p>
+                    </div>
+                    <ul id="container" class="clearfix">
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank" href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                    </ul>
+                    <ul id="container" class="clearfix">
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                    </ul>
+                    <script>
+                       $("#container li").each(function(){
+                           $(this).on('mouseenter',function(e){
+                               var e=e||window.event;
+                               var angle=direct(e,this)
+                               mouseEvent(angle,this,'in')
+                           })
+                           $(this).on('mouseleave',function(e){
+                               var e=e||window.event;
+                               var angle=direct(e,this)
+                               mouseEvent(angle,this,'off')
+                           })
+                       })
+                       function direct(e,o){
+                         var w=o.offsetWidth;
+                         var h=o.offsetHeight;
+                         var top= o.offsetTop;                    //包含滚动条滚动的部分
+                         var left= o.offsetLeft;
+                         var scrollTOP=document.body.scrollTop||document.documentElement.scrollTop;
+                         var scrollLeft=document.body.scrollLeft||document.documentElement.scrollLeft;
+                         var offTop=top-  scrollTOP;
+                         var offLeft= left- scrollLeft;
+                         //console.log(offTop+";"+offLeft)
+                        // e.pageX|| e.clientX;
+                                //pageX 是从页面0 0 点开始  clientX是当前可视区域0 0开始  即当有滚动条时clientX  小于  pageX
+                               //ie678不识别pageX
+                               //PageY=clientY+scrollTop-clientTop;(只讨论Y轴,X轴同理,下同) 页面上的位置=可视区域位置+页面滚动条切去高度-自身border高度
+                         var ex= (e.pageX-scrollLeft)|| e.clientX;
+                         var ey=(e.pageY-scrollTOP)|| e.clientY;
+                         var x=(ex-offLeft-w/2)*(w>h?(h/w):1);
+                         var y=(ey-offTop-h/2)*(h>w?(w/h):1);
+
+                         var angle=(Math.round((Math.atan2(y,x)*(180/Math.PI)+180)/90)+3)%4 //atan2返回的是弧度 atan2(y,x)
+                         var directName=["上","右","下","左"];
+                         return directName[angle];  //返回方向  0 1 2 3对应 上 右 下 左
+                       }
+                       function mouseEvent(angle,o,d){ //方向  元素  鼠标进入/离开
+                           var w=o.offsetWidth;
+                           var h=o.offsetHeight;
+
+                           if(d=='in'){
+                               switch(angle){
+                                   case '上':
+                                       $(o).find("p").css({left:0,top:-h+"px"}).stop(true).animate({left:0,top:0},300)
+                                        setTimeout(function(){
+                                            $(o).find("p a").css({left:'50%',top:-h+"px"}).stop(true).animate({left:'50%',top:'20px'},300)
+                                        },200)
+                                       break;
+                                   case '右':
+                                       $(o).find("p").css({left:w+"px",top:0}).stop(true).animate({left:0,top:0},300)
+                                       setTimeout(function(){
+                                           $(o).find("p a").css({left:w+"px",top:'20px'}).stop(true).animate({left:'50%',top:'20px'},300)
+                                       },200)
+                                       break;
+                                   case '下':
+                                       $(o).find("p").css({left:0,top:h+"px"}).stop(true).animate({left:0,top:0},300)
+                                       setTimeout(function(){
+                                           $(o).find("p a").css({left:'50%',top:h+"px"}).stop(true).animate({left:'50%',top:'20px'},300)
+                                       },200)
+                                       break;
+                                   case '左':
+                                       $(o).find("p").css({left:-w+"px",top:0}).stop(true).animate({left:0,top:0},300)
+                                       setTimeout(function(){
+                                           $(o).find("p a").css({left:-w+"px",top:'20px'}).stop(true).animate({left:'50%',top:'20px'},300)
+                                       },200)
+                                       break;
+                               }
+                           }else if(d=='off'){
+                               switch(angle){
+                                   case '上':
+                                       $(o).find("p a").stop(true).animate({left:'50%',top:-h+"px"},300)
+                                       setTimeout(function(){
+                                           $(o).find("p").stop(true).animate({left:0,top:-h+"px"},300)
+                                       },200)
+                                       break;
+                                   case '右':
+                                       $(o).find("p a").stop(true).animate({left:w+"px",top:'20px'},300)
+                                       setTimeout(function(){
+                                           $(o).find("p").stop(true).animate({left:w+"px",top:0},300)
+                                       },200)
+                                       break;
+                                   case '下':
+                                       $(o).find("p a").stop(true).animate({left:'50%',top:h+"px"},300)
+                                       setTimeout(function(){
+                                           $(o).find("p").stop(true).animate({left:0,top:h+"px"},300)
+                                       },200)
+                                       break;
+                                   case '左':
+                                       $(o).find("p a").stop(true).animate({left:-w+"px",top:'20px'},300)
+                                       setTimeout(function(){
+                                           $(o).find("p").stop(true).animate({left:-w+"px",top:0},300)
+                                       },200)
+                                       break;
+                               }
+                           }
+                       }
+                    </script> 
+                </div>
+            </div>
+            <div class="con-ggh">
+                <div class="zcinfo">
+                    <div class="zcinfo_top clearfix">
+                        <h3 class="fl">装饰产品</h3>
+                        <p class="fr">当前位置：<a href="index.html">首页</a><span>&gt</span><a href="#">装饰产品</a> </p>
+                    </div>
+                    <ul id="container" class="clearfix">
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank" href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                    </ul>
+                    <ul id="container" class="clearfix">
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                    </ul>
+                    <script>
+                       $("#container li").each(function(){
+                           $(this).on('mouseenter',function(e){
+                               var e=e||window.event;
+                               var angle=direct(e,this)
+                               mouseEvent(angle,this,'in')
+                           })
+                           $(this).on('mouseleave',function(e){
+                               var e=e||window.event;
+                               var angle=direct(e,this)
+                               mouseEvent(angle,this,'off')
+                           })
+                       })
+                       function direct(e,o){
+                         var w=o.offsetWidth;
+                         var h=o.offsetHeight;
+                         var top= o.offsetTop;                    //包含滚动条滚动的部分
+                         var left= o.offsetLeft;
+                         var scrollTOP=document.body.scrollTop||document.documentElement.scrollTop;
+                         var scrollLeft=document.body.scrollLeft||document.documentElement.scrollLeft;
+                         var offTop=top-  scrollTOP;
+                         var offLeft= left- scrollLeft;
+                         //console.log(offTop+";"+offLeft)
+                        // e.pageX|| e.clientX;
+                                //pageX 是从页面0 0 点开始  clientX是当前可视区域0 0开始  即当有滚动条时clientX  小于  pageX
+                               //ie678不识别pageX
+                               //PageY=clientY+scrollTop-clientTop;(只讨论Y轴,X轴同理,下同) 页面上的位置=可视区域位置+页面滚动条切去高度-自身border高度
+                         var ex= (e.pageX-scrollLeft)|| e.clientX;
+                         var ey=(e.pageY-scrollTOP)|| e.clientY;
+                         var x=(ex-offLeft-w/2)*(w>h?(h/w):1);
+                         var y=(ey-offTop-h/2)*(h>w?(w/h):1);
+
+                         var angle=(Math.round((Math.atan2(y,x)*(180/Math.PI)+180)/90)+3)%4 //atan2返回的是弧度 atan2(y,x)
+                         var directName=["上","右","下","左"];
+                         return directName[angle];  //返回方向  0 1 2 3对应 上 右 下 左
+                       }
+                       function mouseEvent(angle,o,d){ //方向  元素  鼠标进入/离开
+                           var w=o.offsetWidth;
+                           var h=o.offsetHeight;
+
+                           if(d=='in'){
+                               switch(angle){
+                                   case '上':
+                                       $(o).find("p").css({left:0,top:-h+"px"}).stop(true).animate({left:0,top:0},300)
+                                        setTimeout(function(){
+                                            $(o).find("p a").css({left:'50%',top:-h+"px"}).stop(true).animate({left:'50%',top:'20px'},300)
+                                        },200)
+                                       break;
+                                   case '右':
+                                       $(o).find("p").css({left:w+"px",top:0}).stop(true).animate({left:0,top:0},300)
+                                       setTimeout(function(){
+                                           $(o).find("p a").css({left:w+"px",top:'20px'}).stop(true).animate({left:'50%',top:'20px'},300)
+                                       },200)
+                                       break;
+                                   case '下':
+                                       $(o).find("p").css({left:0,top:h+"px"}).stop(true).animate({left:0,top:0},300)
+                                       setTimeout(function(){
+                                           $(o).find("p a").css({left:'50%',top:h+"px"}).stop(true).animate({left:'50%',top:'20px'},300)
+                                       },200)
+                                       break;
+                                   case '左':
+                                       $(o).find("p").css({left:-w+"px",top:0}).stop(true).animate({left:0,top:0},300)
+                                       setTimeout(function(){
+                                           $(o).find("p a").css({left:-w+"px",top:'20px'}).stop(true).animate({left:'50%',top:'20px'},300)
+                                       },200)
+                                       break;
+                               }
+                           }else if(d=='off'){
+                               switch(angle){
+                                   case '上':
+                                       $(o).find("p a").stop(true).animate({left:'50%',top:-h+"px"},300)
+                                       setTimeout(function(){
+                                           $(o).find("p").stop(true).animate({left:0,top:-h+"px"},300)
+                                       },200)
+                                       break;
+                                   case '右':
+                                       $(o).find("p a").stop(true).animate({left:w+"px",top:'20px'},300)
+                                       setTimeout(function(){
+                                           $(o).find("p").stop(true).animate({left:w+"px",top:0},300)
+                                       },200)
+                                       break;
+                                   case '下':
+                                       $(o).find("p a").stop(true).animate({left:'50%',top:h+"px"},300)
+                                       setTimeout(function(){
+                                           $(o).find("p").stop(true).animate({left:0,top:h+"px"},300)
+                                       },200)
+                                       break;
+                                   case '左':
+                                       $(o).find("p a").stop(true).animate({left:-w+"px",top:'20px'},300)
+                                       setTimeout(function(){
+                                           $(o).find("p").stop(true).animate({left:-w+"px",top:0},300)
+                                       },200)
+                                       break;
+                               }
+                           }
+                       }
+                    </script> 
+                </div>
+            </div>
+            <div class="con-ggh">
+                <div class="zcinfo">
+                    <div class="zcinfo_top clearfix">
+                        <h3 class="fl">居家服饰</h3>
+                        <p class="fr">当前位置：<a href="index.html">首页</a><span>&gt</span><a href="#">居家服饰</a> </p>
+                    </div>
+                    <ul id="container" class="clearfix">
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank" href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                    </ul>
+                    <ul id="container" class="clearfix">
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="img" src="images/cp2.jpg">
+                            <p>
+                                <span>卧室家具套装蓝色韩式床</span>
+                                <a target="_blank"  href="#"></a>
+                                <i></i>
+                            </p>
+                        </li>
+                    </ul>
+                    <script>
+                       $("#container li").each(function(){
+                           $(this).on('mouseenter',function(e){
+                               var e=e||window.event;
+                               var angle=direct(e,this)
+                               mouseEvent(angle,this,'in')
+                           })
+                           $(this).on('mouseleave',function(e){
+                               var e=e||window.event;
+                               var angle=direct(e,this)
+                               mouseEvent(angle,this,'off')
+                           })
+                       })
+                       function direct(e,o){
+                         var w=o.offsetWidth;
+                         var h=o.offsetHeight;
+                         var top= o.offsetTop;                    //包含滚动条滚动的部分
+                         var left= o.offsetLeft;
+                         var scrollTOP=document.body.scrollTop||document.documentElement.scrollTop;
+                         var scrollLeft=document.body.scrollLeft||document.documentElement.scrollLeft;
+                         var offTop=top-  scrollTOP;
+                         var offLeft= left- scrollLeft;
+                         //console.log(offTop+";"+offLeft)
+                        // e.pageX|| e.clientX;
+                                //pageX 是从页面0 0 点开始  clientX是当前可视区域0 0开始  即当有滚动条时clientX  小于  pageX
+                               //ie678不识别pageX
+                               //PageY=clientY+scrollTop-clientTop;(只讨论Y轴,X轴同理,下同) 页面上的位置=可视区域位置+页面滚动条切去高度-自身border高度
+                         var ex= (e.pageX-scrollLeft)|| e.clientX;
+                         var ey=(e.pageY-scrollTOP)|| e.clientY;
+                         var x=(ex-offLeft-w/2)*(w>h?(h/w):1);
+                         var y=(ey-offTop-h/2)*(h>w?(w/h):1);
+
+                         var angle=(Math.round((Math.atan2(y,x)*(180/Math.PI)+180)/90)+3)%4 //atan2返回的是弧度 atan2(y,x)
+                         var directName=["上","右","下","左"];
+                         return directName[angle];  //返回方向  0 1 2 3对应 上 右 下 左
+                       }
+                       function mouseEvent(angle,o,d){ //方向  元素  鼠标进入/离开
+                           var w=o.offsetWidth;
+                           var h=o.offsetHeight;
+
+                           if(d=='in'){
+                               switch(angle){
+                                   case '上':
+                                       $(o).find("p").css({left:0,top:-h+"px"}).stop(true).animate({left:0,top:0},300)
+                                        setTimeout(function(){
+                                            $(o).find("p a").css({left:'50%',top:-h+"px"}).stop(true).animate({left:'50%',top:'20px'},300)
+                                        },200)
+                                       break;
+                                   case '右':
+                                       $(o).find("p").css({left:w+"px",top:0}).stop(true).animate({left:0,top:0},300)
+                                       setTimeout(function(){
+                                           $(o).find("p a").css({left:w+"px",top:'20px'}).stop(true).animate({left:'50%',top:'20px'},300)
+                                       },200)
+                                       break;
+                                   case '下':
+                                       $(o).find("p").css({left:0,top:h+"px"}).stop(true).animate({left:0,top:0},300)
+                                       setTimeout(function(){
+                                           $(o).find("p a").css({left:'50%',top:h+"px"}).stop(true).animate({left:'50%',top:'20px'},300)
+                                       },200)
+                                       break;
+                                   case '左':
+                                       $(o).find("p").css({left:-w+"px",top:0}).stop(true).animate({left:0,top:0},300)
+                                       setTimeout(function(){
+                                           $(o).find("p a").css({left:-w+"px",top:'20px'}).stop(true).animate({left:'50%',top:'20px'},300)
+                                       },200)
+                                       break;
+                               }
+                           }else if(d=='off'){
+                               switch(angle){
+                                   case '上':
+                                       $(o).find("p a").stop(true).animate({left:'50%',top:-h+"px"},300)
+                                       setTimeout(function(){
+                                           $(o).find("p").stop(true).animate({left:0,top:-h+"px"},300)
+                                       },200)
+                                       break;
+                                   case '右':
+                                       $(o).find("p a").stop(true).animate({left:w+"px",top:'20px'},300)
+                                       setTimeout(function(){
+                                           $(o).find("p").stop(true).animate({left:w+"px",top:0},300)
+                                       },200)
+                                       break;
+                                   case '下':
+                                       $(o).find("p a").stop(true).animate({left:'50%',top:h+"px"},300)
+                                       setTimeout(function(){
+                                           $(o).find("p").stop(true).animate({left:0,top:h+"px"},300)
+                                       },200)
+                                       break;
+                                   case '左':
+                                       $(o).find("p a").stop(true).animate({left:-w+"px",top:'20px'},300)
+                                       setTimeout(function(){
+                                           $(o).find("p").stop(true).animate({left:-w+"px",top:0},300)
+                                       },200)
+                                       break;
+                               }
+                           }
+                       }
+                    </script> 
+                </div>
+            </div>
+
+		</div>
+	</div>
+	<div class="clear"></div>
+</div>
+
+<script type="text/javascript" src="js/cpzx.min.js"></script>
+<script type="text/javascript">
+$(".main-page .nav div").mouseenter(function () {
+	var $this = $(this);
+	var index = $this.index();
+}).mouseleave(function () {
+	var $this = $(this);
+	var index = $this.index();
+}).click(function () {
+	var $this = $(this);
+	var index = $this.index();
+	var l = -(index * 610);
+	$(".main-page .nav div").removeClass("on");
+	$(".main-page .nav div").eq(index).addClass("on");
+	$(".main-page .content .con-ggh:eq(0)").stop().animate({ "margin-top": l }, 500);
+});
+</script>
+	<div class="footer">
+		<p>地址：河北软件职业技术学院</p>
+		<p>电话：1551155151   qq:57144895   邮政编码：071000</p>
+		<p>版权所有：space工作室</p>
+		<a href="#"> <img src="images/jj.jpg" alt="" /> </a>
+		<a href="#"> <img src="images/kj.jpg" alt="" /> </a>
+		<a href="#"> <img src="images/xl.jpg" alt="" /> </a>
+		<a href="#"> <img src="images/wb.jpg" alt="" /> </a>
+		<a href="#"> <img src="images/rr.jpg" alt="" /> </a>
+		<a href="#"> <img src="images/wx.jpg" alt="" /> </a>
+	</div>
+</div>
+</body>
+</html>

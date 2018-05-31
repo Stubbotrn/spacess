@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>space工作室</title>
+<link rel="stylesheet" href="css/cpzx_style.css" />
+<link rel="stylesheet" type="text/css" href="css/zxly.css">
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/html5zoo.js"></script>
+<script src="js/lovelygallery.js"></script>
+<link rel="stylesheet" type="text/css" href="css/nav_style.css">
+
+
+<script type="text/javascript">
+    $(function(){
+        var _this1=null;
+        $('.nav>li').hover(function(){
+            _this1=$(this);
+            _this1.find('.second-nav').show();
+            var _this2=null;
+            _this1.find('.second-nav').find('li').hover(function(){
+                _this2=$(this);
+                _this2.find('.third-nav').show();
+                _this2.find('.third-nav').hover(function(){
+                    $(this).show();
+                },function(){
+                    $(this).hide();
+                });
+            },function(){
+                _this2.find('.third-nav').hide();
+            });
+        },function(){
+            _this1.find('.second-nav').hide();
+        });
+    });
+</script>
+</head>
+<body>
+<!--头部-->
+<div class="header">
+	<div class="header_h">
+		<div class="header_right">
+			<input class="sou" type="text" placeholder="  搜索关键字" />
+			<a href="#"><img src="images/fangda.jpg"></a>
+			<img class="phone" src="images/phone.jpg" alt="phone" />
+			<p>服务热线<span>8888-888888</span></p>
+
+		</div>
+		<div class="header_left">
+			<h3 class="header_logo">
+				<img src="images/logo.jpg" alt="logo" />
+			</h3>
+			<div class="header_name">space工作室</div>
+		</div>
+	</div>
+</div>
+<!--导航-->
+<script src="/demos/googlegg.js"></script>
+<div class="daohang">
+    <ul class="nav">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="gywm.html">关于我们</a></li>
+        <li><a href="cpzx.html">产品中心</a>
+            <ul class="second-nav">
+                <li><a href="cpzx.html">床上用品</a></li>
+                <li><a href="cpzx.html">床头柜</a></li>
+                <li><a href="cpzx.html">布艺沙发</a></li>
+                <li><a href="cpzx.html">照明设备</a></li>
+                <li><a href="cpzx.html">装饰产品</a></li>
+                <li><a href="cpzx.html">居家服饰</a></li>
+            </ul>
+        </li>
+        <li><a href="cgal.html">成功案例</a></li>
+        <li><a href="hyzx.html">行业资讯</a>
+            <ul class="second-nav">
+                <li><a href="hyzx.html">资讯快报</a></li>
+                <li><a href="hyzx.html">室内设计师</a></li>
+            </ul>
+        </li>
+        <li><a href="zxly.html">在线留言</a></li>
+        <li><a href="lxwm.html">联系我们</a></li>
+    </ul>
+</div>
+<!-- 轮播图 -->
+<div class="pics_wrap">
+	<div id="html5zoo-1">
+		<ul class="html5zoo-slides" style="display:none;">
+			<li><a href="cpzx.html"><img src="images/banner3.jpg" /></a></li>
+			<li><a href="cpzx.html"><img src="images/banner4.jpg" /></a></li>
+			<li><a href="cpzx.html"><img src="images/banner.jpg" /></a></li>
+			<li><a href="cpzx.html"><img src="images/banner2.jpg" /></a></li>
+		</ul>
+	</div>
+</div>
+<!-- 轮播图结束 -->
+<!-- 在线留言 -->
+<div class="ddiv">
+        <div class="bitaoti">在线留言</div>
+        <div class="dizhilan"><p>当前位置：<a href="">首页</a>><a href="">在线留言</a></p></div>
+        <div class="biaodan">
+            <ul>
+                <li>标题<span>*</span> </li>
+                <li>姓名<span>*</span> </li>
+                <li>电话<span>*</span> </li>
+                <li>邮箱<span>*</span> </li>
+                <li>留言<span>*</span> </li>
+                <li style="margin-top:70px;">验证码<span>*</span> </li>
+            </ul>
+            <form>
+                 <input type="text" name="firstname" /><br />
+                 <input type="text" name="lastname" /><br />
+                 <input type="tel" name="firstname" /><br />
+                 <input type="text" name="firstname" /><br />
+                 <input type="text" style="height:102px; width:460px; " name="firstname" /><br />
+                 <input type="text" style="width:204px;margin-right: 22px;" /><a href="#"><img src="images/yz.jpg" alt="" /></a> <br>
+                <input type="submit" value="提交" style="height:51px;width:203px;background-color:#1CDA5A; font-size:36px; color:#A7FAA9;">
+            </form>
+
+        </div>
+            
+</div>
+	<div class="footer">
+		<p>地址：河北软件职业技术学院</p>
+		<p>电话：1551155151   qq:57144895   邮政编码：071000</p>
+		<p>版权所有：space工作室</p>
+		<a href="#"> <img src="images/jj.jpg" alt="" /> </a>
+		<a href="#"> <img src="images/kj.jpg" alt="" /> </a>
+		<a href="#"> <img src="images/xl.jpg" alt="" /> </a>
+		<a href="#"> <img src="images/wb.jpg" alt="" /> </a>
+		<a href="#"> <img src="images/rr.jpg" alt="" /> </a>
+		<a href="#"> <img src="images/wx.jpg" alt="" /> </a>
+	</div>
+</div>
+</body>
+</html>

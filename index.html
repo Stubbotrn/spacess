@@ -1,0 +1,501 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>space工作室</title>
+<style type="text/css">
+</style>
+
+<link type="text/css" rel="stylesheet" media="screen" href="css/conn_style.css" />
+<script type="text/javascript" src="js/conn_jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/conn_jquery.easing.min.js"></script>
+
+
+
+<script src="http://api.map.baidu.com/api?v=2.0&ak=A1LU7iHS0avqQwPLAxbhKn0UYSQCuRVH"></script>
+<script src="js/map.min.js"></script>
+<script src="js/map.baiduMap.min.js"></script>
+<link rel="stylesheet" href="css/style.css" />
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/html5zoo.js"></script>
+<script src="js/lovelygallery.js"></script>
+<link rel="stylesheet" type="text/css" href="css/nav_style.css">
+<script type="text/javascript">
+    $(function(){
+        var _this1=null;
+        $('.nav>li').hover(function(){
+            _this1=$(this);
+            _this1.find('.second-nav').show();
+            var _this2=null;
+            _this1.find('.second-nav').find('li').hover(function(){
+                _this2=$(this);
+                _this2.find('.third-nav').show();
+                _this2.find('.third-nav').hover(function(){
+                    $(this).show();
+                },function(){
+                    $(this).hide();
+                });
+            },function(){
+                _this2.find('.third-nav').hide();
+            });
+        },function(){
+            _this1.find('.second-nav').hide();
+        });
+    });
+</script>
+</head>
+<body>
+<!--头部-->
+<div class="header">
+	<div class="header_h">
+		<div class="header_right">
+			<input class="sou" type="text" placeholder="  搜索关键字" />
+			<a href="#"><img src="images/fangda.jpg"></a>
+			<img class="phone" src="images/phone.jpg" alt="phone" />
+			<p>服务热线<span>8888-888888</span></p>
+
+		</div>
+		<div class="header_left">
+			<h3 class="header_logo">
+				<img src="images/logo.jpg" alt="logo" />
+			</h3>
+			<div class="header_name">space工作室</div>
+		</div>
+	</div>
+</div>
+<!--导航-->
+
+<div class="daohang">
+    <ul class="nav">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="gywm.html">关于我们</a></li>
+        <li><a href="cpzx.html">产品中心</a>
+            <ul class="second-nav">
+                <li><a href="cpzx.html">床上用品</a></li>
+                <li><a href="cpzx.html">床头柜</a></li>
+                <li><a href="cpzx.html">布艺沙发</a></li>
+                <li><a href="cpzx.html">照明设备</a></li>
+                <li><a href="cpzx.html">装饰产品</a></li>
+                <li><a href="cpzx.html">居家服饰</a></li>
+            </ul>
+        </li>
+        <li><a href="cgal.html">成功案例</a></li>
+        <li><a href="hyzx.html">行业资讯</a>
+            <ul class="second-nav">
+                <li><a href="hyzx.html">资讯快报</a></li>
+                <li><a href="hyzx.html">室内设计师</a></li>
+            </ul>
+        </li>
+        <li><a href="zxly.html">在线留言</a></li>
+        <li><a href="lxwm.html">联系我们</a></li>
+    </ul>
+</div>
+<!-- 轮播图 -->
+<div class="pics_wrap">
+	<div id="html5zoo-1">
+		<ul class="html5zoo-slides" style="display:none;">
+			<li><a href="cpzx.html"><img src="images/banner3.jpg" /></a></li>
+			<li><a href="cpzx.html"><img src="images/banner4.jpg" /></a></li>
+			<li><a href="cpzx.html"><img src="images/banner.jpg" /></a></li>
+			<li><a href="cpzx.html"><img src="images/banner2.jpg" /></a></li>
+		</ul>
+	</div>
+</div>
+<!-- 轮播图结束 -->
+<!--产品中心-->
+<div class="center clearfix">
+	<div class="cneter_content">
+		<div class="PR_l">
+			<h3><span>产品</span>中心</h3>
+			<p>PRODUCT</p>
+		</div>
+		<div class="PR_r clearfix">
+			<h6 id="pr_zs" class="PR_y"><a href="cpzx.html"><img src="images/zs.png"></a><p>装饰产品</p></h6>
+			<h6 id="pr_kt"><a href="cpzx.html"><img src="images/kt.png"></a><p>客厅</p></h6>
+			<h6 id="pr_ws"><a href="cpzx.html"><img src="images/ws.png"></a><p>卧室</p></h6>
+			<h6 id="pr_ym" class="PR_y2"><a href="cpzx.html"><img src="images/ym.png"></a><p>衣帽间</p></h6>
+			<h6 id="pr_ct"><a href="cpzx.html"><img src="images/ct.png"><p>餐厅</p></a></h6>
+		</div>
+		<div class="cneter_content_content">
+			
+
+			<div class="layout style0 yxl">
+	<div class="hd">
+		<h2>产品展示</h2>
+		<b class="border"></b>
+		<a href="javascript:;" class="changeBnt" id="xxlChg"><i></i>换一换</a>
+	</div>
+	<div class="bd">
+		<ul class="picLB" id="picLBxxl">
+			<li>
+				<dl class="picDl huozhe">
+					<dd>
+						<a href="cpzx.html" class="pic"><img src="images/cp1.jpg" alt=""/></a>
+						<div class="ftBox">
+							<div class="tit"><a href="cpzx.html">中西混搭风格厨房</a></div>
+							<div class="text">中西混搭风格厨房</div>
+							<div class="qr">
+								<i class="icon-arr"></i>
+								<img class="fl" src="images/cp1.jpg" alt="活着微信" />
+								<div class="text">扫二维码 <br />中西混搭风格厨房</div>
+							</div>
+						</div>
+					</dd>
+					<dd>
+						<a href="cpzx.html" class="pic"><img src="images/cp1.jpg" alt=""/></a>
+						<div class="ftBox">
+							<div class="tit"><a href="cpzx.html">中西混搭风格厨房</a></div>
+							<div class="text">中西混搭风格厨房</div>
+							<div class="qr">
+								<i class="icon-arr"></i>
+								<img class="fl" src="images/cp1.jpg" alt="活着微信" />
+								<div class="text">扫二维码 <br />中西混搭风格厨房</div>
+							</div>
+						</div>
+					</dd>
+					<dd>
+						<a href="cpzx.html" class="pic"><img src="images/cp1.jpg" alt=""/></a>
+						<div class="ftBox">
+							<div class="tit"><a href="cpzx.html">中西混搭风格厨房</a></div>
+							<div class="text">中西混搭风格厨房</div>
+							<div class="qr">
+								<i class="icon-arr"></i>
+								<img class="fl" src="images/cp1.jpg" alt="活着微信" />
+								<div class="text">扫二维码 <br />中西混搭风格厨房</div>
+							</div>
+						</div>
+					</dd>
+				</dl>
+			</li>
+			<li>
+				<dl class="picDl jilu">
+					<dd>
+						<a href="cpzx.html" class="pic"><img src="images/cp1.jpg" alt=""/></a>
+						<div class="ftBox">
+							<div class="tit"><a href="cpzx.html">中西混搭风格厨房</a></div>
+							<div class="text">中西混搭风格厨房</div>
+						</div>
+					</dd>
+					<dd>
+						<a href="cpzx.html" class="pic"><img src="images/cp1.jpg" alt=""/></a>
+						<div class="ftBox">
+							<div class="tit"><a href="cpzx.html">中西混搭风格厨房</a></div>
+							<div class="text">中西混搭风格厨房</div>
+						</div>
+					</dd>
+					<dd>
+						<a href="cpzx.html" class="pic"><img src="images/cp1.jpg" alt=""/></a>
+						<div class="ftBox">
+							<div class="tit"><a  href="cpzx.html">中西混搭风格厨房</a></div>
+							<div class="text">中西混搭风格厨房</div>
+						</div>
+					</dd>
+				</dl>
+			</li>
+			<li>
+				<dl class="picDl tuhua">
+					<dd>
+						<a href="cpzx.html" class="pic"><img src="images/cp1.jpg" alt=""/></a>
+						<div class="ftBox">
+							<div class="tit"><a  href="cpzx.html">中西混搭风格厨房</a></div>
+							<div class="text">中西混搭风格厨房</div>
+						</div>
+					</dd>
+					<dd>
+						<a href="cpzx.html" class="pic"><img nsrc="images/cp1.jpg" alt=""/></a>
+						<div class="ftBox">
+							<div class="tit"><a  href="cpzx.html">中西混搭风格厨房</a></div>
+							<div class="text">中西混搭风格厨房</div>
+						</div>
+					</dd>
+					<dd>
+						<a href="cpzx.html" class="pic"><img nsrc="images/cp1.jpg" alt=""/></a>
+						<div class="ftBox">
+							<div class="tit"><a  href="cpzx.html">中西混搭风格厨房</a></div>
+							<div class="text">中西混搭风格厨房</div>
+						</div>
+					</dd>
+				</dl>
+			</li>
+			<li>
+				<dl class="picDl today">
+					<dd>
+						<a href="cpzx.html" class="pic"><img src="images/cp1.jpg" alt=""/></a>
+						<div class="ftBox">
+							<div class="tit"><a href="cpzx.html">中西混搭风格厨房</a></div>
+							<div class="text">中西混搭风格厨房</div>
+							<div class="qr">
+								<i class="icon-arr"></i>
+								<img class="fl" src="images/cp1.png" alt="中西混搭风格厨房" />
+								<div class="text">扫二维码 <br />中西混搭风格厨房</div>
+							</div>
+						</div>
+					</dd>
+					<dd>
+						<a href="cpzx.html" class="pic"><img nsrc="images/cp1.jpg" alt=""/></a>
+						<div class="ftBox">
+							<div class="tit"><a  href="cpzx.html">中西混搭风格厨房</a></div>
+							<div class="text">中西混搭风格厨房</div>
+							<div class="qr">
+								<i class="icon-arr"></i>
+								<img class="fl" src="images/cp1.png" alt="中西混搭风格厨房" />
+								<div class="text">扫二维码 <br />中西混搭风格厨房</div>
+							</div>
+						</div>
+					</dd>
+					<dd>
+						<a href="cpzx.html" class="pic"><img nsrc="images/cp1.jpg" alt=""/></a>
+						<div class="ftBox">
+							<div class="tit"><a href="cpzx.html">中西混搭风格厨房</a></div>
+							<div class="text">中西混搭风格厨房</div>
+							<div class="qr">
+								<i class="icon-arr"></i>
+								<img class="fl" src="images/cp1.png" alt="中西混搭风格厨房" />
+							</div>
+						</div>
+					</dd>
+				</dl>
+			</li>
+			<li>
+				<dl class="picDl yingzhan">
+					<dd>
+						<a href="cpzx.html" class="pic"><img src="images/cp1.jpg" alt=""/></a>
+						<div class="ftBox">
+							<div class="tit"><a href="cpzx.html">中西混搭风格厨房</a></div>
+							<div class="text">中西混搭风格厨房</div>
+						</div>
+					</dd>
+					<dd>
+						<a href="cpzx.html" class="pic"><img nsrc="images/cp1.jpg" alt=""/></a>
+						<div class="ftBox">
+							<div class="tit"><a href="cpzx.html">中西混搭风格厨房</a></div>
+							<div class="text">中西混搭风格厨房</div>
+						</div>
+					</dd>
+					<dd>
+						<a href="cpzx.html" class="pic"><img nsrc="images/cp1.jpg" alt=""/></a>
+						<div class="ftBox">
+							<div class="tit"><a href="cpzx.html">中西混搭风格厨房</a></div>
+							<div class="text">中西混搭风格厨房</div>
+						</div>
+					</dd>
+				</dl>
+			</li>
+			<li>
+				<dl class="picDl jingxuan">
+				<dd>
+					<a href="cpzx.html" class="pic"><img src="images/cp1.jpg" alt=""/></a>
+					<div class="ftBox">
+						<div class="tit"><a href="cpzx.html">中西混搭风格厨房</a></div>
+						<div class="text">中西混搭风格厨房</div>
+					</div>
+				</dd>
+				<dd>
+					<a href="cpzx.html" class="pic"><img nsrc="images/cp1.jpg" alt=""/></a>
+					<div class="ftBox">
+						<div class="tit"><a href="cpzx.html">中西混搭风格厨房</a></div>
+						<div class="text">中西混搭风格厨房</div>
+					</div>
+				</dd>
+				<dd>
+					<a href="cpzx.html" class="pic"><img nsrc="images/cp1.jpg" alt=""/></a>
+					<div class="ftBox">
+						<div class="tit"><a href="cpzx.html">中西混搭风格厨房</a></div>
+						<div class="text">中西混搭风格厨房</div>
+					</div>
+				</dd>
+				</dl>
+			</li>
+		</ul>
+	</div>
+</div>
+
+
+
+		</div>
+	</div>		
+</div>
+
+	</div>
+	<div class="center_pr">
+			<div class="product">
+				<h3><span>行业</span>资讯</h3>
+				<p>PRODUCT</p>
+				<ul>
+					<li>[行业信息] <a href="hyzx.html">	衣柜业新一轮战争进军农村市场 </a> <span>2011-12-12</span> </li>
+					<li>[行业信息] <a href="hyzx.html"> 衣柜业新一轮战争进军农村市场 </a> <span>2011-12-12</span> </li>
+					<li>[行业信息] <a href="hyzx.html"> 衣柜业新一轮战争进军农村市场 </a> <span>2011-12-12</span> </li>
+					<li>[行业信息] <a href="hyzx.html"> 衣柜业新一轮战争进军农村市场 </a> <span>2011-12-12</span> </li>
+					<li>[行业信息] <a href="hyzx.html"> 衣柜业新一轮战争进军农村市场 </a> <span>2011-12-12</span> </li>
+					<li>[行业信息] <a href="hyzx.html"> 衣柜业新一轮战争进军农村市场 </a> <span>2011-12-12</span> </li>
+					<li>[行业信息] <a href="hyzx.html"> 衣柜业新一轮战争进军农村市场 </a> <span>2011-12-12</span> </li>
+
+				</ul>
+				<img src="images/hy.jpg" alt="" />
+			</div>
+		</div>
+		<script src="/demos/googlegg.js"></script>
+		<div class="success">
+			<h3><span>成功</span>案例</h3>
+			<p>SUCCESS</p>
+			<ul class="clearfix">
+				<li> <a href="#"> <img src="images/cg1.jpg" alt="" /> <strong>简介</strong> <em></em> </a></li>
+				<li> <a href="#"> <img src="images/cg2.jpg" alt="" /> <strong>简介</strong> <em></em> </a> </li>
+				<li style="margin-right: 0px;> <a href="#"> <img src="images/cg3.jpg" alt="" /> <strong>简介</strong> <em></em> </a> </li>
+				<li> <a href="#"> <img src="images/cg4.jpg" alt="" /> <strong>简介</strong> <em></em> </a> </li>
+				<li style="margin-right: 0px;> <a href="#"> <img src="images/cg5.jpg" alt="" /> <strong>简介</strong> <em></em> </a> </li>
+			</ul>
+		</div>
+		<div class="product2">
+			<h3><span>关于</span>我们</h3>
+			<p>PRODUCT</p>
+			<script src="/demos/googlegg.js"></script>
+			<div class="right">
+				<h4>space工作室</h4>
+				<p>室内装修需回归自然化：随着环境保护意识的增长，人们向往自然，喝天然饮料，用自然材料，渴望住在天然绿色环境中。高度民族化，只强调高度现代化，人们虽然提高了生活质量，却又感到失去了传统、失去了过去。因此，现代室内设计的发展趋势就是即讲现代化，又讲传统。室内装修需整体艺术化：随着社会物质财富的丰富，人们要求从“屋的堆积”中解放出来，求各种物件之间存在统一整体之美。室内设计需高度现代化：随着科学技术的发展，室内设计师要学会采用一切现代科技手段，使室内设计达到最佳声、光、色、形的匹配效果，实现高速度、高效率、高功能、创造出理想的值得人们赞叹的空间环境来。</p>
+				<a href="gywm.html">查看全部</a>
+			</div>
+			<div class="left">
+			<div id="container1" class="container"></div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<p>地址：河北软件职业技术学院</p>
+		<p>电话：1551155151   qq:57144895   邮政编码：071000</p>
+		<p>版权所有：space工作室</p>
+		<a href="#"> <img src="images/jj.jpg" alt="" /> </a>
+		<a href="#"> <img src="images/kj.jpg" alt="" /> </a>
+		<a href="#"> <img src="images/xl.jpg" alt="" /> </a>
+		<a href="#"> <img src="images/wb.jpg" alt="" /> </a>
+		<a href="#"> <img src="images/rr.jpg" alt="" /> </a>
+		<a href="#"> <img src="images/wx.jpg" alt="" /> </a>
+	</div>
+</div>
+<script type="text/javascript">
+
+
+
+
+
+var getyxl = jQuery('#picLBxxl li').eq(0).width();
+(function($){
+    var arartta= window['arartta'] = function(o){
+        return new das(o);
+    }
+    das = function(o){
+        this.obj = $('#'+o.obj);
+        this.bnt = $('#'+o.bnt);
+        this.showLi = this.obj.find('li');
+        this.current = 0;
+        this.myTimersc = '';
+        this.init()
+    }
+    das.prototype = {
+        chgPic:function(n){
+            var _this = this;
+            for (var i = 0,l= _this.showLi.length; i < l; i++) {
+                _this.showLi.eq(i).find(".pic").find('img').eq(n).attr('src',_this.showLi.eq(i).find(".pic").find('img').eq(n).attr('nsrc'));
+
+                $('#picLBxxl dl:not(:animated)').animate({left: -(n * getyxl) + "px"}, {easing:"easeInOutExpo"}, 1500, function(){});
+            }
+        },
+        rotate:function(){
+            var _this = this;
+            clearInterval(_this.myTimersc);
+            _this.bnt.children().css({
+                    '-webkit-transform':'rotate(0deg)',
+                    '-moz-transform':'rotate(0deg)'
+            });
+            var tt = 0;
+            var getBnts = _this.bnt.children();
+            _this.myTimersc = setInterval(function(){
+                tt += 10;
+                if (tt >= 180) {
+                    clearInterval(_this.myTimersc);
+                }
+                rotateElement(getBnts,tt);
+            },25)
+        },
+        init:function(){
+            var _this = this;
+            this.bnt.bind("click",function(){
+                _this.current++;
+                if (_this.current > 2) {
+                    _this.current = 0 ;
+                }
+                _this.chgPic(_this.current);
+                _this.rotate();
+
+            })
+            this.bnt.mouseenter(function () {
+                _this.rotate();
+            });
+
+        }
+    }
+})(jQuery)
+
+arartta({
+    bnt:'xxlChg',
+    obj:'picLBxxl'
+});
+
+function rotateElement(element,angle){
+    var rotate = 'rotate('+angle+'deg)';
+    if(element.css('MozTransform')!=undefined)
+        element.css('MozTransform',rotate);
+    else if(element.css('WebkitTransform')!=undefined)
+        element.css('WebkitTransform',rotate);
+}
+
+
+
+
+
+
+
+
+new BaiduMap({
+		id: "container1",
+		title: {
+			text: "河北软件",
+			className: "title"
+		},
+		content: {
+			className: "content",
+			text: ["地址：东风东路999号", "电话：(010)65131892"]
+		},
+		point: {
+			lng: "115.550822",
+			lat: "38.873954"
+		}
+	});
+
+	new BaiduMap({
+		id: "container2",
+		title: {
+			text: "北京故宫博物院",
+			className: "title"
+		},
+		content: {
+			className: "content",
+			text: ["地址：北京市东城区东华门大街", "电话：(010)65131892"]
+		},
+		point: {
+			lng: "116.412222",
+			lat: "39.912345"
+		},
+		level: 15,
+		type: true,
+		width: 320,
+		height: 70,
+		icon: {
+			url: "img/icon.png",
+			width: 36,
+			height: 36
+		}
+	});
+</script>
+</body>
+</html>
